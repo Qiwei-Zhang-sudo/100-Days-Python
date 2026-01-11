@@ -1,0 +1,1 @@
+print("languages:\n\tC\n\tptthon\n\tJava")
