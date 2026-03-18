@@ -10,9 +10,9 @@ def user_profile(first, last, **others):
 my_profile = user_profile(
     'magnus',
     'grant',
-    age = 19,
-    location = 'China',
-    phone = 123456,
+    age=19,
+    location='China',
+    phone=123456,
     )
 # 字典中的元素用冒号表示键值对
 # 在函数调用时传递关键字参数时，需要使用等号语法

@@ -1,5 +1,5 @@
 
-def make_album(singer = 'zhangsan', album = 2026):
+def make_album(singer='zhangsan', album=2026):
     """ 接受歌手名称和专辑名称并存入字典中 """
 
 

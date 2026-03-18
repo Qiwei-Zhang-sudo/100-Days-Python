@@ -1,4 +1,4 @@
-def make_shirt(size, chapter = 'I love Python'):
+def make_shirt(size, chapter='I love Python'):
     ''' This function prints a message about the shirt '''
     print(f'This shirt is {size} and says {chapter}')
 
