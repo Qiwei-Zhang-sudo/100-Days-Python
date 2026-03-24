@@ -14,17 +14,15 @@ class User:
     def greet_user(self):
         """向用户发出个性化的问候"""
         print(f'hello,{self.first_name} {self.last_name}')
+class Admin(User):
+    """admin"""
+    def __init__(self, first_name, last_name, age, sex,*privileges):
+        super().__init__(first_name, last_name, age, sex)     
+        self.privileges = list(privileges[:])
+    def show_privileges(self):
+        for privilege in self.privileges:
+            print(privilege)
 
-user1 = User('magnus','grant','20','male')
-user2 = User('zhangsan','lisi','19','male')
-user3 = User('wangwu','zhaoliu','18','female')
-user1.describle_user()
-user1.greet_user()
-user2.describle_user()
-user2.greet_user()
-user3.describle_user()
-user3.greet_user()
-
-
-
-
+example = Admin('admin','admin',18,'male','can add post','can delete post','can ban user')
+example.show_privileges()
+example.describle_user()
