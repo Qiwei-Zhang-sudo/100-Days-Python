@@ -14,7 +14,13 @@ class Restaurant:
         '''打印餐厅正在营业'''
         print(f'{self.restaurant_name}正在营业')
 
-fish_restaurant = Restaurant('码哥烤鱼', '烤鱼店')
-fish_restaurant.describe_restaurant()
-fish_restaurant.open_restaurant()
+fish = Restaurant('fish','烤鱼店')
+food = Restaurant('food','川菜')
+cook = Restaurant('cook','西餐店')
+fish.describe_restaurant()
+food.describe_restaurant()
+cook.describe_restaurant()
+fish.open_restaurant()
+food.open_restaurant()
+cook.open_restaurant()
 
