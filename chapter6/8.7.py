@@ -1,4 +1,4 @@
-def make_album(singer = 'zhangsan', album = 2026):
+def make_album(singer='zhangsan', album=2026):
     ''' 接受歌手名和专辑名并返回一个字典 '''
     return {singer: album}
 
@@ -12,5 +12,5 @@ print(b)
 c = make_album('lisi', 2017)
 print(c)
 
-d = make_album(singer = 'wangwu')
+d = make_album(singer='wangwu')
 print(d)
