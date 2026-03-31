@@ -7,7 +7,7 @@ class User:
         self.age = age
         self.sex = sex
     
-    def describle_user(self):
+    def describe_user(self):
         """打印用户信息"""
         print(f"username: {self.first_name} {self.last_name}")
         print(f'age: {self.age}')
@@ -20,11 +20,11 @@ class User:
 user1 = User('magnus','grant','20','male')
 user2 = User('zhangsan','lisi','19','male')
 user3 = User('wangwu','zhaoliu','18','female')
-user1.describle_user()
+user1.describe_user()
 user1.greet_user()
-user2.describle_user()
+user2.describe_user()
 user2.greet_user()
-user3.describle_user()
+user3.describe_user()
 user3.greet_user()
 
 

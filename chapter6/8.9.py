@@ -5,7 +5,7 @@ def show_message(messages):
 
 profile = [
     'Hello World!',
-    'Hello Pyhton',
+    'Hello Python',
     'My name is Magnus Grant',
     'My motto is practice makes perfect'
 ]
