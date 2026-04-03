@@ -21,6 +21,8 @@ class User:
     def reset_login_attempts(self):
         """充值登录次数"""
         self.login_attempts = 0
+
+
 example = User('magnus','grant','20','male')
 example.increment_login_attempts()
 example.increment_login_attempts()

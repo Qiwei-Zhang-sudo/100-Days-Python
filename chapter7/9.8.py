@@ -38,5 +38,7 @@ class Admin(User):
     def show_privileges(self):
         """显示管理员权限"""
         self.privileges.show_privileges()
+
+
 example = Admin('admin','admin',18,'male')
 example.show_privileges()
