@@ -4,5 +4,9 @@
     "remote.autoForwardPortsFallback": 0,
     "python.REPL.enableREPLSmartSend": false,
     "code-runner.runInTerminal": true,
-    "code-runner.saveAllFilesBeforeRun": true
+    "code-runner.saveAllFilesBeforeRun": true,
+    "notebook.consolidatedRunButton": true,
+    "cSpell.words": [
+        "Sqlist"
+    ]
 }

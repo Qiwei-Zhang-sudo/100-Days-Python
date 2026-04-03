@@ -18,7 +18,7 @@ class User:
         self.age = age
         self.sex = sex
 
-    def describle_user(self):
+    def describe_user(self):
         """打印用户信息"""
         print(f"username: {self.first_name} {self.last_name}")
         print(f'age: {self.age}')
