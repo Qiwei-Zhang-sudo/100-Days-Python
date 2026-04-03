@@ -1,11 +1,11 @@
-englishs={
+english={
     'sport':'football',
     'fruit':'apple',
-    'langage':'python',
-    'city':'newyork'
+    'language':'python',
+    'city':'Linzhou'
 }
-print(englishs)
-for english in englishs.keys():
+print(english)
+for english in english.keys():
     print(english)
-for english in englishs.values():
+for english in english.values():
     print(english)

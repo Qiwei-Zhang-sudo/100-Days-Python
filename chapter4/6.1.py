@@ -1,11 +1,11 @@
-persion = {
+person = {
     'first_name':'zhang',
     'last_name':'qiwei',
     'age':20,
     'city':'linzhou'
 }
-print(persion)
-print(persion['first_name'])
-print(persion['last_name'])
-print(persion['age'])
-print(persion['city'])
+print(person)
+print(person['first_name'])
+print(person['last_name'])
+print(person['age'])
+print(person['city'])

@@ -7,7 +7,7 @@ class User:
         self.age = age
         self.sex = sex
         self.login_attempts = login_attempts
-    def describle_user(self):
+    def describe_user(self):
         """打印用户信息"""
         print(f"username: {self.first_name} {self.last_name}")
         print(f'age: {self.age}')
@@ -21,6 +21,8 @@ class User:
     def reset_login_attempts(self):
         """充值登录次数"""
         self.login_attempts = 0
+
+
 example = User('magnus','grant','20','male')
 example.increment_login_attempts()
 example.increment_login_attempts()

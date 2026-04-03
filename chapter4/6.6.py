@@ -18,6 +18,6 @@ for name in names:
             symbol=1
             break
     if symbol:
-        print(f'{name} is a good persion ')
+        print(f'{name} is a good person ')
     else:
-        print(f'{name} is a bad persion')
+        print(f'{name} is a bad person')

@@ -1,9 +1,9 @@
-langages={
+languages={
     'alice':'c',
     'admin':'python',
     'jack':'c++',
     'john':'java',
 }
-for name,langage in langages.items():
+for name,language in languages.items():
      print(f'{name}最喜欢的编程语言是:')
-     print(f'{langage.title()}')
+     print(f'{language.title()}')
