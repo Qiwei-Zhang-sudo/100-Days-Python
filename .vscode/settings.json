@@ -7,6 +7,8 @@
     "code-runner.saveAllFilesBeforeRun": true,
     "notebook.consolidatedRunButton": true,
     "cSpell.words": [
+        "Magnus",
+        "Seqlist",
         "Sqlist"
     ]
 }

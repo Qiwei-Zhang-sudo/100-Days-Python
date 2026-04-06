@@ -22,6 +22,7 @@ typedef struct
     int length;
 }Sqlist;
 
+
 Status InitList(Sqlist &L)
 {
     L.p = new Book[MAXSIZE];
