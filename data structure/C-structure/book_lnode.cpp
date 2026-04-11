@@ -1,4 +1,5 @@
 #include<iostream>
+using namespace std;
 
 #define OK 0
 #define ERROR -1
@@ -8,5 +9,6 @@ typedef int Status;
 
 struct book
 {
+    string isbn;
     
-}
+};

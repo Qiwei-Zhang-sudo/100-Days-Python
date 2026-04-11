@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 using namespace std;
  
 #define OK 0
@@ -11,8 +12,8 @@ typedef int Status;
 
 struct Book
 {
-    char ISDN[10];
-    char name[20];
+    string ISBN;
+    string name;
     float price;
 };
 
@@ -22,6 +23,7 @@ typedef struct
     int length;
 }Sqlist;
 
+//初始化
 Status InitList(Sqlist &L)
 {
     L.p = new Book[MAXSIZE];
@@ -89,6 +91,36 @@ Status ListDelete(Sqlist &L, int i)
     for (int j = i; j < L.length; j++)
         L.p[j - 1] = L.p[j];
     --L.length;
+    return OK;
+}
+
+//判断是否为空
+Status ListEmpty(Sqlist L)
+{
+    return L.length == 0 ? OK:ERROR;
+}
+
+//求表长
+int ListLength(Sqlist L)
+{
+    return L.length;
+}
+
+//销毁顺序表
+Status DestroyList(Sqlist &L)
+{
+    if(L.p){
+        delete []L.p;
+        L.p = NULL;
+    }
+    L.length = 0;
+    return OK;
+}
+
+//清空顺序表
+Status ClearList(Sqlist &L)
+{
+    L.length = 0;
     return OK;
 }
 int main()
