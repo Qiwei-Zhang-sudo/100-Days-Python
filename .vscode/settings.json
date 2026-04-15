@@ -1,11 +1,12 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.defaultEnvManager": "ms-python.python:venv",
     "remote.autoForwardPortsFallback": 0,
     "python.REPL.enableREPLSmartSend": false,
     "code-runner.runInTerminal": true,
     "code-runner.saveAllFilesBeforeRun": true,
     "notebook.consolidatedRunButton": true,
     "cSpell.words": [
+        "getelem",
         "Magnus",
         "Seqlist",
         "Sqlist"
